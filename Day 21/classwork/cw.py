@@ -13,3 +13,5 @@ num = [1,  2,  3,   4,  5,  6,  7,   8,  9,  10]
 print(num)
 print(num[1 : 8])
 print(num[ 4 : 10])
+name2 = "enter your name"
+print("name2")
