@@ -28,3 +28,10 @@ def food(meat):
 food("xinkal")
 
 #BOSS LEVEL
+def word_legeths(st):
+    splited_st = st.split(" ") 
+    result=""
+    for i in splited_st:
+    result = + i + str(len(i)) 
+    print(result)
+word_legeths("hello word phyton")
