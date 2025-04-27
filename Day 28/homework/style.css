@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+
+.red-text {
+    color: red;
+    text-align: center;
+}
