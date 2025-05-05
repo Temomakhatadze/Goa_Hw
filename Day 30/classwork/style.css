@@ -1,0 +1,23 @@
+.photo-container {
+    background-color: rgb(255, 0, 0); 
+    width: 1000px;
+    height: 500vh;
+  }
+  
+  .photo-container img {
+    width: 50%; 
+  }
+  .look {
+    font-size: 20px;
+  }
+  
+  .p1{
+    font-size: 10%; 
+  }
+  .p2 {
+    font-size: 50%;
+  }
+  
+  .p3 {
+    font-size: 200%; 
+}
