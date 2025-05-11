@@ -1,0 +1,58 @@
+.box {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .red {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .green {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  .blue {
+    background-color: rgb(0, 0, 255);
+  }
+
+  .image {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black; 
+  }
+  
+  .image img {
+    width: 25%;
+    height: 25%;
+  }
+  .box {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+
+  .rgb-box {
+    background-color: rgb(255, 0, 0); 
+  }
+  
+
+  .hex-box {
+    background-color: #00ff00; 
+  }
+  
+  
+  .hsl-box {
+    background-color: hsl(240, 100%, 50%); 
+  }
+  
+  
+  
