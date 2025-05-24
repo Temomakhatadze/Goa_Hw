@@ -1,0 +1,51 @@
+.responsive-box{
+    height: 500px;
+    width: 500px;
+    background-color: rebeccapurple;
+}
+@media (max-width: 600px) {
+  .responsive-box {
+    width: 90%;
+    background-color: green;
+  }
+}
+.styled-div {
+  font-size: 50px;
+}
+
+.styled-paragraph {
+  font-size: 50%;
+  text-transform: uppercase;
+  background-color: green;
+}
+#p{
+    text-decoration: dotted color(  green );
+
+}
+.l{
+    text-decoration:line-through color(prophoto-rgb rgb(109, 59, 59) );
+}
+.u{
+    text-decoration: overline overline;
+}
+.t{
+    text-decoration:underline ;
+}
+.r{
+    text-decoration: line-through dotted;
+}
+.q{
+    text-decoration:line-through ;
+}
+.f{
+    text-decoration: overline;
+}
+.n{
+    text-decoration:overline color( green ) ;
+}
+.m{
+    text-decoration: overline color-(rgb(244, 223, 145))
+}
+.hey{
+    text-decoration:underline dotted ;
+}
