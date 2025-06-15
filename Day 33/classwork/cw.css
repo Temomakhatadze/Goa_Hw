@@ -1,0 +1,95 @@
+
+p {
+  transition: all 2s;
+  font-size: 16px;
+}
+
+/* 1 */
+#p1:hover {
+  font-size: 30px;
+  color: red;
+}
+
+#p2:hover {
+  font-size: 40px;
+  color: red;
+}
+
+#p3:hover {
+  font-size: 50px;
+  color: blue;
+}
+
+#p4:hover {
+  font-size: 60px;
+  color: blue;
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+/* 2 */
+.hover-photo {
+  width: 100px;
+  transition: width 0.5s;
+  display: block;
+  margin: 20px 0;
+}
+
+.hover-photo:hover {
+  width: 200px;
+}
+
+/* 3 */
+.main-title {
+  font-size: 24px;
+  transition: all 0.3s;
+  background-color: transparent;
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-title:hover {
+  font-size: 40px;
+  background-color: red;
+}
+
+.main-title:active {
+  background-color: blue;
+}
+
+/* 4 */
+.img {
+  width: 200px;
+  transition: width 0.5s;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.img1:hover {
+  width: 50vw;
+}
+
+.img2:hover {
+  width: 75vw;
+}
+
+.img3:hover {
+  width: 100vw;
+}
+
+/* 5*/
+.font-hover {
+  transition: font-family 0.3s;
+}
+
+.font-hover:hover {
+  font-family: 'Pacifico', cursive;
+}
