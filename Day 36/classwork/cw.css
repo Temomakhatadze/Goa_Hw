@@ -1,0 +1,67 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+table {
+border-collapse: collapse;
+margin: 20px auto;
+background-color: black;       
+}
+
+caption {
+font-weight: bold;
+font-size: 1.4em;
+margin-bottom: 10px;
+}
+
+th, td {
+border: 1px solid #ddd;
+text-align: center;
+padding: 12px;
+}
+
+th {
+background-color: #333;
+color: white;
+}
+
+td.highlight {
+background-color: yellow;
+font-weight: bold;
+}
+
+td, th {
+min-width: 100px;
+}
+
+tr:nth-child(1) th {
+  background-color: #444;
+}
+
+tr:nth-child(3) td {
+  font-weight: bold;
+}
+
+
+.black-odd-rows tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+
+.wheat-bg tr {
+  background-color: wheat;
+}
+
+.tomato-list {
+  list-style-type: square;
+  list-style-position: inside;
+  color: tomato;
+}
+
+
+.greek-list {
+  list-style-type: lower-greek;
+  list-style-position: outside;
+  text-align: center;
+}

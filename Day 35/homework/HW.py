@@ -23,7 +23,7 @@ print(text("hello"))
 #7
 def name_surname(name,surname):
     print(f"my name is {name} and my surname is {surname}.")
-name_surname("saba","ber")
+name_surname("saba","ber") 
 #2
 # #Custom ფუნქცია არის პროგრამისტის მიერ განსაზღვრული კოდის დამოუკიდებელი ბლოკი, 
 # რომელიც ასრულებს კონკრეტულ ამოცანას, გამოიყენება კოდის გამეორების თავიდან ასაცილებლად,

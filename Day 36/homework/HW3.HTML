@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Database Table - Video</title>
+    <link rel="stylesheet" href="HW3.CSS">
+</head>
+<body>
+    <div class="container">
+        <h1>Database Table</h1>
+        <p><strong>Table Name:</strong> <span class="table-name">Video</span></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Fields</th>
+                    <th>Fields Type</th>
+                    <th>Allow Null</th>
+                    <th>Primary Key</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>id</td><td>int(11)</td><td>No</td><td>Yes</td><td>video id</td></tr>
+                <tr><td>2</td><td>video</td><td>varchar(100)</td><td>No</td><td>No</td><td>video</td></tr>
+                <tr><td>3</td><td>description</td><td>varchar(500)</td><td>No</td><td>No</td><td>Description</td></tr>
+                <tr><td>4</td><td>category_id</td><td>int(11)</td><td>No</td><td>No</td><td>category_id</td></tr>
+                <tr><td>5</td><td>subcategory_id</td><td>int(11)</td><td>No</td><td>No</td><td>subcategory_id</td></tr>
+                <tr><td>6</td><td>exercise_id</td><td>varchar(50)</td><td>No</td><td>No</td><td>exercise_id</td></tr>
+                <tr><td>7</td><td>thumbnail</td><td>varchar(100)</td><td>No</td><td>No</td><td>thumbnail</td></tr>
+            </tbody>
+        </table>
+
+        <button class="back-btn">⬅ Back</button>
+    </div>
+</body>
+</html>
