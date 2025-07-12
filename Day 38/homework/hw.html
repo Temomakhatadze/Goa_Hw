@@ -1,0 +1,124 @@
+<!--1-->
+<!--ეს ყველაფერი გამოიყენება სიის (list) სტილის დასადგენად CSS-ში:
+    list-style-type — განსაზღვრავს, როგორი ნიშნებით გამოჩნდება სია:
+    მაგ. disc, circle, square, decimal, armenian, none და სხვა.-->
+
+
+    <!--list-style-position — განსაზღვრავს, ნიშანი (bullet ან ციფრი) შიგნით იყოს თუ გარეთ ელემენტის:
+    inside – ტექსტთან ერთ ხაზზე
+    outside – ნიშანი გარეთ, ტექსტი ახალ ხაზზე-->
+
+
+    <!--list-style-image — საშუალებას გაძლევთ ჩასვათ ნიშნის მაგივრად სურათი-->
+
+    <!--2,3-->
+    <!--border-radius
+კუთხეების მომრგვალებლად.
+რაც მეტი px, მით უფრო მრგვალი კუთხე.
+
+border: none
+რისთვის არის: სრულიად აქრობს ელემენტის გარშემო საზღვარს.
+
+
+
+::placeholder
+რისთვის არის: input-ში შიგნით ჩასმული ტექსტის სტილიზაციისთვის (placeholder ტექსტი).
+მაგალითი:
+
+
+::marker
+რისთვის არის: სიის bullet ან ნომრის სტილიზაციისთვის (ul ან ol).
+
+:hover
+როცა მომხმარებელი მაუსს გადაუსვამს ელემენტს — ხდება ვიზუალური ცვლილება.
+
+
+-->
+
+
+
+<!--4-->
+<div class="container">
+    <h1> My Favorite Books</h1>
+    <ul>
+    <li>მოგზაური ტონი</li>
+    <li>ჰარი პოტტერ</li>
+    <li>საუკეთსო მეგობრები</li>
+    </ul>
+
+    <input type="text" placeholder="Add a new book">
+    <button>Add Book</button>
+</div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vegetables List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+<div class="drinks-container">
+    <ul class="drinks-list">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+    </ul>
+</div>
+
+
+<div class="container">
+    <div class="header">
+    <h1>GROCERIES</h1>
+    </div>
+
+    <ul class="grocery-list">
+    <li><strong>Rice</strong></li>
+    <li><strong>Flour</strong></li>
+    <li><strong>Pulses</strong></li>
+    </ul>
+</div>
+
+
+
+
+
+<div class="form-container">
+    <h1>Send Us a Message</h1>
+    <p>Please fill in the form below to get in touch with us.</p>
+
+    <form>
+<div class="row">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+</div>
+
+<div class="row">
+        <input type="email" placeholder="Email address" required>
+        <input type="tel" placeholder="Phone Number">
+</div>
+
+<textarea placeholder="Message" rows="5" required></textarea>
+
+<div class="checkbox">
+        <input type="checkbox" id="agree" required>
+        <label for="agree">
+    I've read and agree with 
+    <a href="#">Terms of Service</a> and 
+    <a href="#">Privacy Policy</a>
+        </label>
+</div>
+
+<button type="submit">Submit</button>
+    </form>
+</div>
+
+
+</body>
+</html>

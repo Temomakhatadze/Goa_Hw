@@ -1,0 +1,58 @@
+.vegetables-container {
+width: 200px;
+background: linear-gradient(to right, #9932CC, #87CEFA);
+color: white;
+padding: 10px;
+font-family: Arial, sans-serif;
+}
+
+.vegetables-container h2 {
+text-align: center;
+text-decoration: underline;
+margin: 0;
+padding: 10px 0;
+}
+
+.vegetables-list {
+list-style-type: none;
+padding: 0;
+background: white;
+color: black;
+}
+
+.vegetables-list li {
+display: flex;
+align-items: center;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.vegetables-list li::before {
+content: "";
+display: inline-block;
+width: 15px;
+height: 15px;
+background-color: black;
+margin-right: 10px;
+}
+
+
+.drinks-container {
+width: 200px;
+background-color: #007BFF;
+color: navy;
+font-family: Arial, sans-serif;
+padding: 10px;
+}
+
+.drinks-list {
+list-style-type: disc;
+padding-left: 20px;
+background-color: #ADD8E6;
+}
+
+.drinks-list li {
+padding: 10px;
+border-bottom: 1px solid #007BFF;
+}
