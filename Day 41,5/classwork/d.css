@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+.parent {
+    display: flex;
+    justify-content: space-between; 
+    background-color: lightgray;
+    padding: 10px;
+}
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* 2  */
+.center-box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+}
+
