@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>პოზიცირების მაგალითი</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ვებგვერდის სათაური</h1>
+    <nav>
+    <ul>
+        <li><a href="#section1">temo1</a></li>
+        <li><a href="#section2">temo 2</a></li>
+        <li><a href="#section3">temo 3</a></li>
+    </ul>
+    </nav>
+</header>
+
+
+<section id="section1" class="static-section">
+    <h2>Static პოზიციონირება</h2>
+    <p>ეს არის ნაგულისხმევი პოზიცია – static.</p>
+</section>
+
+<section id="section2" class="static-shift-section">
+    <h2>Static ბლოკი (margin-ით გადანაცვლებული)</h2>
+    <div class="static-box">
+    მე ვარ static ბლოკი, მაგრამ margin-ით გადმოწეული ვარ მარცხნივ და ზემოთ.
+    </div>
+</section>
+
+
+<section id="section3" class="absolute-section">
+    <h2>Absolute პოზიციონირება</h2>
+    <div class="container">
+    <p>ეს არის კონტეინერი. შიგნით ერთ-ერთი ელემენტი აბსოლუტურადაა მოთავსებული.</p>
+    <div class="absolute-box">Absolute Box</div>
+    </div>
+</section>
+
+<footer>
+    <p>ეს არის footer — ყოველთვის ქვედა ნაწილში</p>
+</footer>
+</body>
+</html>
