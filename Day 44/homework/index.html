@@ -1,0 +1,98 @@
+<!--1
+/* 1. display: flex; */
+/* ცვლის ელემენტს flex კონტეინერად, რომლის შვილებიც გახდებიან flex items. */
+
+/* 2. flex-direction */
+/* განსაზღვრავს მთავარ ღერძს და ელემენტების მიმდევრობას:
+row — მარჯვნიდან მარცხნივ (სტანდარტული),
+row-reverse — მარცხნიდან მარჯვნივ,
+column — ზედა მხრიდან ქვემოთ,
+   column-reverse — ქვედან ზედა. */
+
+/* 3. flex-wrap */
+/* განსაზღვრავს თუ როგორ „დახუთვდეს“ ელემენტები, როცა მთავარ ღერძზე არ ეტევა:
+nowrap — არ იხვევა (სტანდარტული),
+wrap — ახალ ხაზზე იხვევა,
+   wrap-reverse — ახალი ხაზზე უკუღმა იხვევა. */
+
+/* 4. flex-flow */
+/* shorthand თვისება: kombinuje flex-direction და flex-wrap ერთ ხაზში:
+   მაგალითად: 'row wrap' ან 'column-reverse wrap-reverse'. */
+
+/* 5. justify-content */
+/* მართავს ელემენტების განლაგებას მთავარ ღერძზე:
+   flex-start, center, flex-end, space-between, space-around, space-evenly. */
+
+/* 6. align-items */
+/* მართავს განლაგებას კვადრატულ (cross) ღერძზე თითო ელემენტის მიმართ:
+   flex-start, center, flex-end, baseline, stretch. */
+
+/* 7. align-content */
+/* მართავს მრავლის ხაზების განლაგებას cross ღერძზე, თუ არის wrapping:
+   flex-start, center, flex-end, space-between, space-around, stretch. */
+
+/* 8. order */
+/* ცვლის ელემენტების ვიზუალუალურ შეფართალას მათი დომ-ში ყოფნის მიხედვით —
+   დაბალი order უპირატესია, ნეგატიური მნიშვნელობებიც შეიძლება. */
+
+/* 9. align-self */
+/* ადგენს კონკრეტული ელემენტის განლაგებას cross ღერძზე, გადაფარავს align-items–ს. */
+
+
+-->
+
+
+<!--3
+DONE-->
+<!--4-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ჩემი პორტფოლიო</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+   <header class="site-header">
+   <div class="wrap header-inner">
+      <a class="logo" href="#">TK</a>
+      <nav class="nav">
+      <a href="#projects">პროექტები</a>
+      <a href="#about">ჩემ შესახებ</a>
+      <a href="#contact">კონტაქტი</a>
+      </nav>
+   </div>
+   </header>
+
+   <section class="hero">
+   <div class="wrap hero-inner">
+      <h1>გამარჯობა, მე ვარ თემო</h1>
+      <p>ფრონტენდ დეველოპერი — ვქმნი სუფთა, სწრაფ და ხელმისაწვდომ ინტერფეისებს.</p>
+      <a href="#projects" class="btn">ნახე პროექტები</a>
+   </div>
+   </section>
+
+   <main class="wrap">
+   <section id="projects" class="cards">
+      <article class="card">
+      <h3>პროექტი A</h3>
+      <p>რეფაქტორინგი და რესპონსივი დიზაინი.</p>
+      <a href="#" class="btn btn-light">დეტალები</a>
+      </article>
+      <article class="card">
+      <h3>პროექტი B</h3>
+      <p>API ინტეგრაცია და სტატუსის მართვა.</p>
+      <a href="#" class="btn btn-light">დეტალები</a>
+      </article>
+      <article class="card">
+      <h3>პროექტი C</h3>
+      <p>ანიმაციები და ხელმისაწვდომობა (a11y).</p>
+      <a href="#" class="btn btn-light">დეტალები</a>
+      </article>
+      <article class="card">
+      <h3>პროექტი D</h3>
+      <p>კომპონენტური არქიტექტურა.</p>
+      <a href=
+
