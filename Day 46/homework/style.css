@@ -1,0 +1,87 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #eaf5ef;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.form-container {
+background: #fff;
+padding: 30px;
+border-radius: 10px;
+width: 400px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+margin-bottom: 20px;
+font-size: 20px;
+color: #333;
+}
+
+.form-group {
+display: flex;
+gap: 10px;
+margin-bottom: 15px;
+}
+
+.form-group input {
+flex: 1;
+}
+
+label {
+font-size: 14px;
+margin-bottom: 5px;
+display: block;
+color: #444;
+}
+
+input, textarea, select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+outline: none;
+}
+
+textarea {
+resize: none;height: 80px;
+}
+
+.radio-group {
+display: flex;
+justify-content: space-between;
+margin-bottom: 0;
+}
+
+.radio-group label {
+display: flex;
+align-items: center;
+gap: 5px;
+
+}
+
+.checkbox {
+margin-bottom: 15px;
+font-size: 14px;
+}
+
+button {
+width: 100%;
+padding: 12px;
+border: none;
+background: #007f5f;
+color: white;
+font-size: 16px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #006747;
+}

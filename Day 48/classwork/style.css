@@ -1,0 +1,56 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background: #fff;
+}
+
+.container {
+display: grid;
+grid-template-areas:
+    "tt tt"
+    "tt1 tt2"
+    "tt1 bottom";
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto 1fr 1fr;
+gap: 10px;
+width: 600px;
+height: 500px;
+}
+
+.tt {
+grid-area: tt;
+background: red;
+border-radius: 8px;
+}
+
+.tt1 {
+grid-area: tt1;
+background: blue;
+border-radius: 8px;
+}
+
+.tt2 {
+grid-area: tt2;
+background: green;
+border-radius: 8px;
+}
+
+.bottom {
+grid-area: bottom;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+.tt3 {
+background: purple;
+border-radius: 8px;
+}
+
+.tt4 {
+background: purple;
+border-radius: 8px;
+}
