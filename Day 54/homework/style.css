@@ -1,0 +1,103 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color: #ecf2f8;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.testimonials {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-areas:
+    "purple purple gray long"
+    "white dark dark long";
+gap: 1.5rem;
+max-width: 1100px;
+}
+
+/* Card styles */
+.card {
+border-radius: 10px;
+padding: 2rem;
+color: white;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .header {
+display: flex;
+align-items: center;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+.card .header img {
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+
+.card .header h3 {
+margin: 0;
+font-size: 1rem;
+}
+
+.card .header p {
+margin: 0;
+font-size: 0.85rem;
+opacity: 0.8;
+}
+
+.card h4 {
+font-size: 1.05rem;
+margin-bottom: 1rem;
+}
+
+.card p {
+font-size: 0.9rem;
+opacity: 0.9;
+}
+
+/* Colors */
+.purple {
+background-color: hsl(263, 55%, 52%);
+grid-area: purple;
+background-image: url("https://www.transparenttextures.com/patterns/diagonal-stripes.png");
+}
+
+.gray {
+background-color: hsl(217, 19%, 35%);
+grid-area: gray;
+}
+
+.white {
+background-color: white;
+color: hsl(217, 19%, 35%);
+}
+
+.dark {
+background-color: hsl(219, 29%, 14%);
+grid-area: dark;
+}
+
+.long {
+grid-area: long;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+.testimonials {
+    grid-template-areas:
+    "purple"
+    "gray"
+    "white"
+    "dark"
+    "long";
+    grid-template-columns: 1fr;
+}
+}
