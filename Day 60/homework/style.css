@@ -1,0 +1,17 @@
+.cars img {
+    width: 200px;
+    margin: 5px;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.green { background: green; color: white; }
+.sky { background: skyblue; }
+.red { background: red; color: white; }
+.pink { background: pink; }
+.yellow { background: yellow; }
