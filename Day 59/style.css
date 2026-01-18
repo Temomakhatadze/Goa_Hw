@@ -42,7 +42,7 @@ margin-top: 10px;
 }
 
 .type button {
-padding: 8px 15px;
+padding: 8px 25px;
 margin-right: 5px;
 }
 
@@ -60,14 +60,14 @@ border: none;
 }
 
 .result {
-width: 300px;
+width: 200px;
 background: #0f2a33;
 color: #ffffff;
-padding: 25px;
+padding: 100px;
 border-radius: 15px;
 display: inline-block;
 vertical-align: top;
-margin-left: 20px;
+margin-left: 10px;
 }
 
 .result h1 {

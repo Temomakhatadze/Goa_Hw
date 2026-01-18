@@ -14,10 +14,10 @@ photo("deme")
 
 #3
 
-def NAME(deme, saba, gio, tee, bat):
+def NAME(deme, saba, gio, tea, bat):
     print("name:", deme)
     print("old:", saba)
     print("live:", gio)
-    print("true:", tee)
+    print("true:", tea)
     print("dd:", bat)
 NAME("gio", 25, "tbilisi", True, 3.14)
