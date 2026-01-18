@@ -63,4 +63,4 @@ console.log(typeof username); // string
 
 
 let number = 17;
-console.log(typeof number); // number
+console.log(typeof points); // number

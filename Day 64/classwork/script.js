@@ -56,7 +56,7 @@ ll1="tem"
 console.log(1)
 
 console.log(typeof("tt")) //gvetyvis ra aris string
-console.log(typeof(5))//
+console.log(typeof(5))
 
 
 //1
