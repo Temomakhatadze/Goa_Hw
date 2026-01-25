@@ -27,14 +27,14 @@ console.log(typeof isOnline);
 
 let cars = ["BMW", "Mercedes", "Audi", "Toyota", "Honda", "Ford"];
 
-let Indrrrex = Math.floor(Math.random() * cars.length);
-console.log(cars[Indrrrex]);
+let Index = Math.floor(Math.random() * cars.length);
+console.log(cars[Index]);
 
 //3
 
 // ==
 console.log(5 == "5");    
-console.log(0 == false); 
+console.log(0 == 0); 
 
 // ===
 
@@ -72,7 +72,7 @@ console.log(7 <= 3);
 // 4
 
 let randomNumber = Math.random() * 100 + 1;
-let roundedNumber = Math.round(randomNumber);
+let roundedNumber = Math.floor(randomNumber);
 
 console.log(roundedNumber);
 
