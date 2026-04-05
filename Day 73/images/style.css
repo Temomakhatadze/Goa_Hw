@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f1424;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+}
+
+.card {
+    background: #1c1f4a;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.profile {
+    grid-row: span 2;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    margin-bottom: 20px;
+}
+
+.work {
+    border-top: 10px solid #ff8b64;
+}
+
+.play {
+    border-top: 10px solid #56c2e6;
+}
+
+.study {
+    border-top: 10px solid #ff5c7c;
+}
+
+.exercise {
+    border-top: 10px solid #4acf81;
+}
+
+.social {
+    border-top: 10px solid #7536d3;
+}
+
+.selfcare {
+    border-top: 10px solid #f1c75b;
+}
+
+
