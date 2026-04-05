@@ -14,9 +14,9 @@ name3=int(input("sheiyvane saxeli"))
 if name3>len(name):
     print("shecdomaaaa !")
 else:
-   name.insert(name2,name3)
+        name.insert(name2,name3)
 print("განახლებული სია:", name)
-#4
+
 def name_shok(number):
     if number % 2 == 0:
         print("The number is even.")
