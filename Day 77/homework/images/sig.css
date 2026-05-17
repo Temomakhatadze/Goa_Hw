@@ -1,0 +1,75 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body {
+background: #f5f5f5;
+color: #111;
+
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 60px;
+}
+
+
+
+nav a {
+margin: 0 15px;
+text-decoration: none;
+color: #444;
+}
+
+.auth a {
+margin-right: 20px;
+text-decoration: none;
+color: #444;
+}
+
+.auth button {
+padding: 8px 15px;
+border: 1px solid #333;
+background: transparent;
+border-radius: 8px;
+}
+
+/* Hero Section */
+.hero {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 80px 60px;
+}
+
+.text {
+max-width: 500px;
+}
+
+.text h1 {
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.text p {
+color: #666;
+margin-bottom: 30px;
+}
+
+.btn {
+background: #111;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 10px;
+}
+
+.image img {
+width: 400px;
+border-radius: 20px;
+}
