@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ff0000;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+    transition:width 2s ,height 2s,background-color 2s,color 5s;
+
+    transition: 3ss;
+}
+
+div p{
+    color: white;
+
+}
+
+div:hover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: black;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+div:hover p {
+    color: black;
+    transition: color 5s;
+}
+@keyframes example {
+    0%   {
+        background-color: red; 
+        height: 100px ;
+        width: 200px;}
+    20%  {
+        background-color: yellow;
+        height: 2000px 
+        ;width: 300px; }
+    40%  
+    {background-color: blue;  
+        height: 300px
+        ;width: 400px;}
+    60%  {
+        background-color: green  
+        ; height: 400px ;
+        width: 500px;}
+        80%  {
+        background-color: black;
+        height: 500px ;
+        width: 600px;}
+    100% {
+        background-color: red; 
+        height: 550px ;
+        width: 750px;}
+        
+}

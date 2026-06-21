@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    margin: 200px auto;
+
+
+    transition:background-color 3s,rotate 3s,
+        translate 5s,scale 5s;
+}
+
+.box:hover {
+    /* 200px მარჯვნივ და 300px ზევით */
+    translate: 200px 300px;
+
+    /* ზომის გასამმაგება */
+    scale: 3;
+
+    /* ფონის ფერის შეცვლა */
+    background-color: red;
+
+    /* საათის ისრის საწინააღმდეგოდ 45 გრადუსით მობრუნება */
+    rotate: 360deg;
+
+    /* ბრუნვის წერტილი ზედა მარჯვენა კუთხე */
+    transform-origin: top right;
+}
+
